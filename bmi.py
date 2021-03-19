@@ -16,4 +16,4 @@ mytext =f'bmi is {int(bmi)} sir ..'
 language = 'en'
 output = gTTS(text = mytext,lang = language)
 output.save('bmi.mp3')
-os.system('mpv /data/data/com.termux/files/home/project/bmi.mp3')
+os.system('mpv /data/data/com.termux/files/home/bmi.mp3')
